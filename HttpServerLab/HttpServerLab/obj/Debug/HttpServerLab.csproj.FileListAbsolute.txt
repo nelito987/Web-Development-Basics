@@ -1,0 +1,5 @@
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\HttpServerLab\HttpServerLab\bin\Debug\HttpServerLab.dll
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\HttpServerLab\HttpServerLab\bin\Debug\HttpServerLab.pdb
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\HttpServerLab\HttpServerLab\obj\Debug\HttpServerLab.csprojResolveAssemblyReference.cache
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\HttpServerLab\HttpServerLab\obj\Debug\HttpServerLab.dll
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\HttpServerLab\HttpServerLab\obj\Debug\HttpServerLab.pdb
