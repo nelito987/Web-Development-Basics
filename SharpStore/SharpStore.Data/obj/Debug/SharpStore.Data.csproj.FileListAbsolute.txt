@@ -1,0 +1,10 @@
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\SharpStore.Data\bin\Debug\SharpStore.Data.dll.config
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\SharpStore.Data\bin\Debug\SharpStore.Data.dll
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\SharpStore.Data\bin\Debug\SharpStore.Data.pdb
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\SharpStore.Data\bin\Debug\EntityFramework.dll
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\SharpStore.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\SharpStore.Data\bin\Debug\EntityFramework.xml
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\SharpStore.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\SharpStore.Data\obj\Debug\SharpStore.Data.dll
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\SharpStore.Data\obj\Debug\SharpStore.Data.pdb
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\SharpStore.Data\obj\Debug\SharpStore.Data.csprojResolveAssemblyReference.cache

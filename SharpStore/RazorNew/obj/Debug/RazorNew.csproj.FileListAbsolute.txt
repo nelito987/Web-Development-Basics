@@ -1,0 +1,13 @@
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\RazorNew\obj\Debug\RazorNew.csprojResolveAssemblyReference.cache
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\RazorNew\bin\Debug\Resources\Pages\404.html
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\RazorNew\bin\Debug\Resources\Pages\500.html
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\RazorNew\bin\Debug\RazorNew.dll
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\RazorNew\bin\Debug\RazorNew.pdb
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\RazorNew\bin\Debug\SharpStore.Data.dll
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\RazorNew\bin\Debug\SimpleHttpServer.dll
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\RazorNew\bin\Debug\EntityFramework.dll
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\RazorNew\bin\Debug\SharpStore.Data.pdb
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\RazorNew\bin\Debug\SimpleHttpServer.pdb
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\RazorNew\bin\Debug\EntityFramework.xml
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\RazorNew\obj\Debug\RazorNew.dll
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\HttpServer\ServerN\SharpStore-Skeleton\RazorNew\obj\Debug\RazorNew.pdb
