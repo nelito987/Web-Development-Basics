@@ -1,0 +1,2 @@
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\bin\Debug\SimpleMVC.App.exe.config
+C:\Users\Neli\Desktop\SoftUni\Web Development Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\obj\Debug\SimpleMVC.App.csprojResolveAssemblyReference.cache
