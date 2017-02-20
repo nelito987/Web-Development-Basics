@@ -96,5 +96,22 @@ namespace SimpleMVC.App.Controllers
                 return View(viewModel);
             }    
         }
+
+        [HttpPost]
+        public IActionResult<UserProfileViewModel> Profile(AddNoteBindingModel model)
+        {
+            using (var context = new NotesAppContext())
+            {
+                var user = context.Users.Find(model.UserId);
+                var note = new Note()
+                {
+                    Title = model.Title,
+                    Content = model.Content
+                };
+                user.Notes.Add(note);
+                context.SaveChanges();
+            }
+            return Profile(model.UserId);
+        }
     }
 }

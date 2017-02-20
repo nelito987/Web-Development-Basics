@@ -7,13 +7,14 @@ namespace SimpleMVC.App.MVC.ViewEngine.Generic
     {
         public ActionResult(string viewFullQualifiedName, T model)
         {
-            this.Action = (IRenderable<T>)Activator
+            this.Action =
+                (IRenderable<T>)Activator
                 .CreateInstance(Type.GetType(viewFullQualifiedName));
-            //TODO:
-            this.Action.Model = model;
-        }
 
+            Action.Model = model;
+        }
         public IRenderable<T> Action { get; set; }
+
         public string Invoke()
         {
             return this.Action.Render();

@@ -58,6 +58,7 @@
     <Compile Include="BindingModels\AddNoteBindingModel.cs" />
     <Compile Include="ViewModels\AllUsernamesViewModel.cs" />
     <Compile Include="BindingModels\RegisterUserBindingModel.cs" />
+    <Compile Include="ViewModels\AllUsersViewModel.cs" />
     <Compile Include="ViewModels\NoteViewModel.cs" />
     <Compile Include="ViewModels\UserProfileViewModel.cs" />
     <Compile Include="ViewModels\UserViewModel.cs" />
