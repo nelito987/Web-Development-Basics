@@ -2,8 +2,8 @@
 {
     public enum RequestMethod
     {
-        Get,
-        Post,
-        Delete
+        GET,
+        POST,
+        DELETE
     }
 }

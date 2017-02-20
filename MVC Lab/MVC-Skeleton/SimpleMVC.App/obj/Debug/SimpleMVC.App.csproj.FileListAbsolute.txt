@@ -1,2 +1,16 @@
 C:\Users\Neli\Desktop\SoftUni\Web Development Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\bin\Debug\SimpleMVC.App.exe.config
 C:\Users\Neli\Desktop\SoftUni\Web Development Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\obj\Debug\SimpleMVC.App.csprojResolveAssemblyReference.cache
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\bin\Debug\SimpleMVC.App.exe.config
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\bin\Debug\Resources\Pages\404.html
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\bin\Debug\Resources\Pages\500.html
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\bin\Debug\SimpleMVC.App.exe
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\bin\Debug\SimpleMVC.App.pdb
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\bin\Debug\SimpleHttpServer.dll
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\bin\Debug\SimpleHttpServer.pdb
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\obj\Debug\SimpleMVC.App.csprojResolveAssemblyReference.cache
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\obj\Debug\SimpleMVC.App.exe
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\obj\Debug\SimpleMVC.App.pdb
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\bin\Debug\EntityFramework.dll
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\bin\Debug\EntityFramework.xml
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleMVC.App\bin\Debug\EntityFramework.SqlServer.xml

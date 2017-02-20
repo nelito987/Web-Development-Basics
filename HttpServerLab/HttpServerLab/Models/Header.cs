@@ -25,6 +25,11 @@ namespace HttpServerLab.Models
 
         public Dictionary<string, string> OtherParameters { get; set; }
 
+        public void AddCookie(Cookie cookie)
+        {
+            this.Cookies.AddCookie(cookie);
+        }
+
         public override string ToString()
         {
             StringBuilder header = new StringBuilder();

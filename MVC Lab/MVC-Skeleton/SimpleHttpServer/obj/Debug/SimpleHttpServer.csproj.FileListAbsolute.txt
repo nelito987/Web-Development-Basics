@@ -6,3 +6,11 @@ C:\Users\Neli\Desktop\SoftUni\Web Development Basics\MVC Lab\MVC-Skeleton\Simple
 C:\Users\Neli\Desktop\SoftUni\Web Development Basics\MVC Lab\MVC-Skeleton\SimpleHttpServer\obj\Debug\SimpleHttpServer.csprojResolveAssemblyReference.cache
 C:\Users\Neli\Desktop\SoftUni\Web Development Basics\MVC Lab\MVC-Skeleton\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
 C:\Users\Neli\Desktop\SoftUni\Web Development Basics\MVC Lab\MVC-Skeleton\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleHttpServer\bin\Debug\Resources\Pages\404.html
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleHttpServer\bin\Debug\Resources\Pages\500.html
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll.config
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleHttpServer\obj\Debug\SimpleHttpServer.csprojResolveAssemblyReference.cache
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\MVC Lab\MVC-Skeleton\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb

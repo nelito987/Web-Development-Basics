@@ -18,9 +18,9 @@ namespace HttpServerLab.Main
                 new Route
                 {
                     Name = "HalloHandler",
-                    UrlRegex = @"^/hello$",
-                    RequestMethod = RequestMethod.Get,
-                    Callable = (HttpRequest request) =>
+                    UrlRegex = "^/hello$",
+                    RequestMethod = RequestMethod.GET,
+                    Callable = (request) =>
                     {
                         return new HttpResponse()
                         {
