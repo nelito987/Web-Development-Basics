@@ -1,4 +1,5 @@
-﻿using SimpleMVC.App.BindingModels;
+﻿using SimpleHttpServer.Models;
+using SimpleMVC.App.BindingModels;
 using SimpleMVC.App.Data;
 using SimpleMVC.App.Models;
 using SimpleMVC.App.MVC.Attributes.Methods;
@@ -112,6 +113,43 @@ namespace SimpleMVC.App.Controllers
                 context.SaveChanges();
             }
             return Profile(model.UserId);
+        }
+        
+        public IActionResult<GreetViewModel> Greet(HttpSession session)
+        {
+            var viewModel = new GreetViewModel()
+            {
+                SessionId = session.Id
+            };
+            return View(viewModel);
+        }
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Login(LoginUserBindingModel model, HttpSession session, HttpResponse response)
+        {
+            using (var context = new NotesAppContext())
+            {
+                var user = context.Users.FirstOrDefault(u => u.Username == model.Username && u.Password == model.Password);
+                if (user != null)
+                {
+                    context.Logins.Add(new Login()
+                    {
+                        SessionId = session.Id,
+                        User = user,
+                        IsActive = true
+                    });
+                    context.SaveChanges();
+                    //Redirect(response, "/home/index");
+                    return null;
+                }
+            }
+            return View();
         }
     }
 }

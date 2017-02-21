@@ -23,16 +23,23 @@ namespace SimpleMVC.App.MVC.Routers
         private string[] controllerActionParams;
         private string[] controllerAction;
 
+        private HttpRequest request;
+        private HttpResponse response;
+
         public ControllerRouter()
         {
             this.getParams = new Dictionary<string, string>();
             this.postParams = new Dictionary<string, string>();
+            this.request = new HttpRequest();
+            this.response = new HttpResponse();
         }
 
         public HttpResponse Handle(HttpRequest request)
         {
+            this.request = request;
+            this.response = new HttpResponse();
             //Parse input from the request
-            ParseInput(request);
+            ParseInput();
             //TODO 
             var method = this.GetMethod();
             var controller = this.GetController();
@@ -55,7 +62,7 @@ namespace SimpleMVC.App.MVC.Routers
             this.getParams = new Dictionary<string, string>();
         }
 
-        private void ParseInput(HttpRequest request)
+        private void ParseInput()
         {
             string uri = WebUtility.UrlDecode(request.Url);
             string query = string.Empty;
@@ -98,6 +105,21 @@ namespace SimpleMVC.App.MVC.Routers
                 {
                     object value = this.getParams[param.Name];
                     this.methodParams[index] = Convert.ChangeType(value, param.ParameterType);
+                    index++;
+                }
+                else if(param.ParameterType == typeof(HttpRequest))
+                {
+                    this.methodParams[index] = this.request;
+                    index++;
+                }
+                else if(param.ParameterType == typeof(HttpSession))
+                {
+                    this.methodParams[index] = this.request.Session;
+                    index++;
+                }
+                else if (param.ParameterType == typeof(HttpResponse))
+                {
+                    this.methodParams[index] = this.response;
                     index++;
                 }
                 else

@@ -8,6 +8,7 @@
         public string Url { get; set; }
         public string Content { get; set; }
 
+        public HttpSession Session { get; set; }
         public Header Header { get; set; }
 
         public HttpRequest()

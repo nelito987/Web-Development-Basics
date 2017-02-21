@@ -56,9 +56,14 @@
   <ItemGroup>
     <Compile Include="AppStart.cs" />
     <Compile Include="BindingModels\AddNoteBindingModel.cs" />
+    <Compile Include="BindingModels\LoginUserBindingModel.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Login.cs" />
+    <Compile Include="MVC\Interfaces\IDbIdentityContext.cs" />
     <Compile Include="ViewModels\AllUsernamesViewModel.cs" />
     <Compile Include="BindingModels\RegisterUserBindingModel.cs" />
     <Compile Include="ViewModels\AllUsersViewModel.cs" />
+    <Compile Include="ViewModels\GreetViewModel.cs" />
     <Compile Include="ViewModels\NoteViewModel.cs" />
     <Compile Include="ViewModels\UserProfileViewModel.cs" />
     <Compile Include="ViewModels\UserViewModel.cs" />
@@ -87,6 +92,8 @@
     <Compile Include="RouteTable.cs" />
     <Compile Include="Views\Home\Index.cs" />
     <Compile Include="Views\Users\All.cs" />
+    <Compile Include="Views\Users\Greet.cs" />
+    <Compile Include="Views\Users\Login.cs" />
     <Compile Include="Views\Users\Profile.cs" />
     <Compile Include="Views\Users\Register.cs" />
   </ItemGroup>
