@@ -1,4 +1,6 @@
-﻿using SimpleMVC.App.MVC.Interfaces;
+﻿using SimpleHttpServer.Enums;
+using SimpleHttpServer.Models;
+using SimpleMVC.App.MVC.Interfaces;
 using SimpleMVC.App.MVC.Interfaces.Generic;
 using SimpleMVC.App.MVC.ViewEngine;
 using SimpleMVC.App.MVC.ViewEngine.Generic;
@@ -54,6 +56,12 @@ namespace SimpleMVC.App.MVC.Controllers
                 controller,
                 action);
             return new ActionResult<T>(fullQualifiedName, model);
+        }
+
+        public void Redirect(HttpResponse response, string location)
+        {
+            response.Header.Location = location;
+            response.StatusCode = ResponseStatusCode.Found;
         }
     }
 }

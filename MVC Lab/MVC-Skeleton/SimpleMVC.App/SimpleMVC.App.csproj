@@ -60,6 +60,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Login.cs" />
     <Compile Include="MVC\Interfaces\IDbIdentityContext.cs" />
+    <Compile Include="MVC\Security\SignInManager.cs" />
     <Compile Include="ViewModels\AllUsernamesViewModel.cs" />
     <Compile Include="BindingModels\RegisterUserBindingModel.cs" />
     <Compile Include="ViewModels\AllUsersViewModel.cs" />
@@ -94,6 +95,7 @@
     <Compile Include="Views\Users\All.cs" />
     <Compile Include="Views\Users\Greet.cs" />
     <Compile Include="Views\Users\Login.cs" />
+    <Compile Include="Views\Users\Logout.cs" />
     <Compile Include="Views\Users\Profile.cs" />
     <Compile Include="Views\Users\Register.cs" />
   </ItemGroup>

@@ -6,14 +6,23 @@ using SimpleMVC.App.MVC.Attributes.Methods;
 using SimpleMVC.App.MVC.Controllers;
 using SimpleMVC.App.MVC.Interfaces;
 using SimpleMVC.App.MVC.Interfaces.Generic;
+using SimpleMVC.App.MVC.Security;
 using SimpleMVC.App.ViewModels;
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
 namespace SimpleMVC.App.Controllers
 {
     public class UsersController: Controller
     {
+        private SignInManager signInManager;
+        public UsersController()
+        {
+            signInManager = new SignInManager(new NotesAppContext());
+        }
+
+
         [HttpGet]
         public IActionResult Register()
         {
@@ -61,8 +70,14 @@ namespace SimpleMVC.App.Controllers
         //}
 
             [HttpGet]
-        public IActionResult<AllUsernamesViewModel> All()
+        public IActionResult<AllUsernamesViewModel> All(HttpSession session, HttpResponse response)
         {
+            if (!signInManager.IsAuthenticated(session))
+            {
+                Redirect(response, "/users/login");
+                return null;
+            }
+
             List<string> usernames = null;
             using(var context = new NotesAppContext())
             {
@@ -76,6 +91,7 @@ namespace SimpleMVC.App.Controllers
 
             return View(viewModel);
         }
+        
 
         [HttpGet]
         public IActionResult<UserProfileViewModel> Profile(int id)
@@ -145,11 +161,18 @@ namespace SimpleMVC.App.Controllers
                         IsActive = true
                     });
                     context.SaveChanges();
-                    //Redirect(response, "/home/index");
+                    Redirect(response, "/home/index");
                     return null;
                 }
             }
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Logout(HttpSession session)
+        {
+            signInManager.Logout(session);
+            return View("Home", "Index");
         }
     }
 }

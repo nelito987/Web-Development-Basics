@@ -12,6 +12,7 @@ namespace SimpleMVC.App.Views.Users
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"<h2>User: {Model.Username}</h2>");
             sb.AppendLine("<a href=\"/home/index\">Home<a/>");
+            sb.AppendLine("<a href=\"/users/logout\" method=\"POST\">Log out<a/>");
             sb.AppendLine("<form action=\"profile\" method=\"POST\">");
             sb.AppendLine("Title: <input type=\"text\" name=\"Title\" /></br>");
             sb.AppendLine("Content: <input type=\"text\" name=\"Content\" /></br>");

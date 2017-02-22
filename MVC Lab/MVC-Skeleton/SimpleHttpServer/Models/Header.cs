@@ -15,6 +15,8 @@ namespace SimpleHttpServer.Models
         }
         public HeaderType Type { get; set; }
         public string ContentType { get; set; }
+
+        public string Location { get; set; }
         public string ContentLength { get; set; }
         public Dictionary<string, string> OtherParameters { get; set; }
         public CookieCollection Cookies { get; private set; }
@@ -47,6 +49,10 @@ namespace SimpleHttpServer.Models
             if (this.ContentLength != null)
             {
                 header.AppendLine("Content-Length: " + this.ContentLength);
+            }
+            if(this.Location != null)
+            {
+                header.AppendLine("Location: " + this.Location);
             }
             foreach (var other in OtherParameters)
             {

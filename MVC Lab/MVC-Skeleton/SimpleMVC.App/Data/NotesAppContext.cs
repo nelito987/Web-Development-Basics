@@ -14,7 +14,7 @@ namespace SimpleMVC.App.Data
         }
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Note> Notes { get; set; }
-        public virtual DbSet<Login> Logins { get; }
+        public virtual DbSet<Login> Logins { get; set; }
 
         void IDbIdentityContext.SaveChanges()
         {

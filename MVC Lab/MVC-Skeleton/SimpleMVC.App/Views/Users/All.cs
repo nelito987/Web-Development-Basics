@@ -12,6 +12,7 @@ namespace SimpleMVC.App.Views.Users
         public string Render()
         {
             StringBuilder sb = new StringBuilder();
+            sb.AppendLine("<a href=\"/users/logout\" method=\"POST\">Log out<a/>");
             sb.AppendLine("<h3> All Users: </h3>");
             sb.AppendLine("<ul>");
             foreach (var username in Model.Usernames)

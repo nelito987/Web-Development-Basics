@@ -39,18 +39,24 @@ namespace SimpleMVC.App.MVC.Routers
             this.request = request;
             this.response = new HttpResponse();
             //Parse input from the request
-            ParseInput();
+            this.ParseInput();
             //TODO 
             var method = this.GetMethod();
             var controller = this.GetController();
-            IInvokable result = (IInvokable)method.Invoke(controller, this.methodParams);
+            IInvokable result = (IInvokable)this.GetMethod().Invoke(this.GetController(), this.methodParams);
 
-            string content = result.Invoke();
-            var response = new HttpResponse()
+            if (string.IsNullOrEmpty(this.response.Header.Location))
             {
-                ContentAsUTF8 = content,
-                StatusCode = ResponseStatusCode.Ok
-            };
+                this.response.StatusCode = ResponseStatusCode.Ok;
+                this.response.ContentAsUTF8 = result.Invoke();
+            }
+
+            //string content = result.Invoke();
+            //var response = new HttpResponse()
+            //{
+            //    ContentAsUTF8 = content,
+            //    StatusCode = ResponseStatusCode.Ok
+            //};
 
             this.ClearRequestParameters();
             return response;
