@@ -14,3 +14,19 @@ C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\bin\De
 C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\obj\Debug\SharpStore.exe
 C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\obj\Debug\SharpStore.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SharpStore\bin\Debug\SharpStore.exe.config
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SharpStore\obj\Debug\SharpStore.exe
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SharpStore\obj\Debug\SharpStore.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SharpStore\bin\Debug\Resources\Pages\404.html
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SharpStore\bin\Debug\Resources\Pages\500.html
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SharpStore\bin\Debug\SharpStore.exe
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SharpStore\bin\Debug\SharpStore.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SharpStore\bin\Debug\EntityFramework.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SharpStore\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SharpStore\bin\Debug\SimpleHttpServer.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SharpStore\bin\Debug\SimpleMVC.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SharpStore\bin\Debug\SimpleHttpServer.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SharpStore\bin\Debug\SimpleMVC.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SharpStore\bin\Debug\EntityFramework.xml
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SharpStore\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SharpStore\obj\Debug\SharpStore.csprojResolveAssemblyReference.cache

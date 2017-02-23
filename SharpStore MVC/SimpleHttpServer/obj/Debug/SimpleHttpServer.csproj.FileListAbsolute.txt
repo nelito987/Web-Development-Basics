@@ -6,11 +6,11 @@ C:\Users\stil2\Desktop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleHtt
 C:\Users\stil2\Desktop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleHttpServer\obj\Debug\SimpleHttpServer.csprojResolveAssemblyReference.cache
 C:\Users\stil2\Desktop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
 C:\Users\stil2\Desktop\MVC-SharpStore-Skeleton\MVC-SharpStore-Skeleton\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb
-C:\Users\neli\Desktop\Softuni\IntroTo MVC HW Sharp Store\HttpServer+Mvc\SimpleHttpServer\bin\Debug\Resources\Pages\404.html
-C:\Users\neli\Desktop\Softuni\IntroTo MVC HW Sharp Store\HttpServer+Mvc\SimpleHttpServer\bin\Debug\Resources\Pages\500.html
-C:\Users\neli\Desktop\Softuni\IntroTo MVC HW Sharp Store\HttpServer+Mvc\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll.config
-C:\Users\neli\Desktop\Softuni\IntroTo MVC HW Sharp Store\HttpServer+Mvc\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll
-C:\Users\neli\Desktop\Softuni\IntroTo MVC HW Sharp Store\HttpServer+Mvc\SimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
-C:\Users\neli\Desktop\Softuni\IntroTo MVC HW Sharp Store\HttpServer+Mvc\SimpleHttpServer\obj\Debug\SimpleHttpServer.csprojResolveAssemblyReference.cache
-C:\Users\neli\Desktop\Softuni\IntroTo MVC HW Sharp Store\HttpServer+Mvc\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
-C:\Users\neli\Desktop\Softuni\IntroTo MVC HW Sharp Store\HttpServer+Mvc\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SimpleHttpServer\bin\Debug\Resources\Pages\404.html
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SimpleHttpServer\bin\Debug\Resources\Pages\500.html
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll.config
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SimpleHttpServer\obj\Debug\SimpleHttpServer.csprojResolveAssemblyReference.cache
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb

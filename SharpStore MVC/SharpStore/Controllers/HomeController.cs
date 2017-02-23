@@ -23,5 +23,11 @@ namespace SharpStore.Controllers
         {
             return this.View();
         }
+
+        [HttpGet]
+        public IActionResult Contacts()
+        {
+            return this.View();
+        }
     }
 }
