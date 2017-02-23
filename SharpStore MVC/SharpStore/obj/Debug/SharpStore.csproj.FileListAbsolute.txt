@@ -1,0 +1,16 @@
+c:\users\neli\documents\visual studio 2015\Projects\SharpStore\SharpStore\bin\Debug\SharpStore.exe.config
+C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\obj\Debug\SharpStore.csprojResolveAssemblyReference.cache
+C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\bin\Debug\Resources\Pages\404.html
+C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\bin\Debug\Resources\Pages\500.html
+C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\bin\Debug\SharpStore.exe
+C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\bin\Debug\SharpStore.pdb
+C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\bin\Debug\EntityFramework.dll
+C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\bin\Debug\SimpleHttpServer.dll
+C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\bin\Debug\SimpleMVC.dll
+C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\bin\Debug\SimpleHttpServer.pdb
+C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\bin\Debug\SimpleMVC.pdb
+C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\bin\Debug\EntityFramework.xml
+C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\obj\Debug\SharpStore.exe
+C:\Users\neli\Documents\Visual Studio 2015\Projects\SharpStore\SharpStore\obj\Debug\SharpStore.pdb
