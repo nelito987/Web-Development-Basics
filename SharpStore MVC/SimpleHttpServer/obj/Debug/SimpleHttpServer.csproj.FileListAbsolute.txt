@@ -14,3 +14,10 @@ C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SimpleHttpS
 C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SimpleHttpServer\obj\Debug\SimpleHttpServer.csprojResolveAssemblyReference.cache
 C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
 C:\Users\Neli\Documents\GitHub\Web Development Basics\SharpStore MVC\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\SharpStore MVC\SimpleHttpServer\bin\Debug\Resources\Pages\404.html
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\SharpStore MVC\SimpleHttpServer\bin\Debug\Resources\Pages\500.html
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\SharpStore MVC\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll.config
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\SharpStore MVC\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\SharpStore MVC\SimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\SharpStore MVC\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\SharpStore MVC\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb

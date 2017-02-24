@@ -1,6 +1,13 @@
-﻿using SimpleMVC.Attributes.Methods;
+﻿using SharpStore.BindingModels;
+using SharpStore.Models;
+using SharpStore.Services;
+using SharpStore.ViewModels;
+using SimpleHttpServer.Models;
+using SimpleMVC.Attributes.Methods;
 using SimpleMVC.Controllers;
 using SimpleMVC.Interfaces;
+using SimpleMVC.Interfaces.Generic;
+using System.Collections.Generic;
 
 namespace SharpStore.Controllers
 {
@@ -19,15 +26,32 @@ namespace SharpStore.Controllers
         }
 
         [HttpGet]
-        public IActionResult Products()
+        public IActionResult<IEnumerable<ProductsViewModel>> Products()
         {
-            return this.View();
+            ProductsService service = new ProductsService(Data.Data.Context);
+            IEnumerable<ProductsViewModel> viewModels = service.GetProducts();
+            return this.View(viewModels);
         }
 
         [HttpGet]
         public IActionResult Contacts()
         {
             return this.View();
+        }
+
+        [HttpPost]
+        public IActionResult Contacts(MessageBinding messageBindingModel)
+        {
+            if(string.IsNullOrEmpty(messageBindingModel.Email) == string.IsNullOrEmpty(messageBindingModel.Subject))
+            {
+                this.Redirect(new HttpResponse()
+                {
+                }, "/home/contacts");
+            }
+
+            MessagesService service = new MessagesService(Data.Data.Context);
+            service.AddMessageFrombind(messageBindingModel);
+            return this.View("Home", "Index");
         }
     }
 }
