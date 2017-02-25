@@ -1,28 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SharpStore.Data;
 using SharpStore.ViewModels;
 using SharpStore.Models;
 
 namespace SharpStore.Services
 {
-    class ProductsService
+    class ProductsService: Service
     {
-        private SharpStoreContext context;
-
         public ProductsService(SharpStoreContext context)
-        {
-            this.context = context;
-        }
+            : base(context) { }
 
-        internal IEnumerable<ProductsViewModel> GetProducts()
+        internal IEnumerable<ProductsViewModel> GetProducts(string Name)
         {
-            var knives = this.context.Knives.ToArray();
+            var knifes = new List<Knife>();
+            if(Name == "" || string.IsNullOrEmpty(Name))
+            {
+                knifes = this.context.Knives.ToList();
+            }
+            else
+            {
+                knifes = this.context.Knives.Where(k => k.Name.Contains(Name)).ToList();
+            }
+            
             List<ProductsViewModel> viewModels = new List<ProductsViewModel>();
-            foreach (Knife knife in knives)
+            foreach (Knife knife in knifes)
             {
                 viewModels.Add(new ProductsViewModel()
                 {

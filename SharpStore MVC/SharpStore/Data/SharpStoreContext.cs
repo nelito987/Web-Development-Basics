@@ -15,5 +15,6 @@ namespace SharpStore.Data
 
         public IDbSet<Knife> Knives { get; set; }
         public IDbSet<Message> Messages { get; set; }
+        public IDbSet<Sale> Sales { get; set; }
     }
 }

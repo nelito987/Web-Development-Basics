@@ -26,10 +26,10 @@ namespace SharpStore.Controllers
         }
 
         [HttpGet]
-        public IActionResult<IEnumerable<ProductsViewModel>> Products()
+        public IActionResult<IEnumerable<ProductsViewModel>> Products(string Name)
         {
             ProductsService service = new ProductsService(Data.Data.Context);
-            IEnumerable<ProductsViewModel> viewModels = service.GetProducts();
+            IEnumerable<ProductsViewModel> viewModels = service.GetProducts(Name);
             return this.View(viewModels);
         }
 
@@ -51,6 +51,21 @@ namespace SharpStore.Controllers
 
             MessagesService service = new MessagesService(Data.Data.Context);
             service.AddMessageFrombind(messageBindingModel);
+            return this.View("Home", "Index");
+        }
+
+        [HttpGet]
+        public IActionResult Buy()
+        {
+            return this.View();
+        }
+
+        [HttpPost]
+        public IActionResult Buy(SaleBindingModel model)
+        {
+            BuyService service = new BuyService(Data.Data.Context);
+            service.AddPurchase(model);
+
             return this.View("Home", "Index");
         }
     }

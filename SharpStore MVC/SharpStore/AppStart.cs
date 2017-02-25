@@ -12,6 +12,8 @@ namespace SharpStore
 
             HttpServer server = new HttpServer(8081, RouteTable.Routes);
             MvcEngine.Run(server, "SharpStore");
+            //var context = Data.Data.Context;
+            //var test = context.Knives.Where(k => k.Id == 10);
         }
     }
 }

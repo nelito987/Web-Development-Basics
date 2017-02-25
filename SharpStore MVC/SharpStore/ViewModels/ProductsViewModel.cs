@@ -19,7 +19,7 @@ namespace SharpStore.ViewModels
             var template = "<div class=\"col-sm-4\">" +
                     "<div class=\"thumbnail\">" +
                   $"<img src = \"{this.ImageUrl}\">" +
-                  $"<div class=\"caption\"><h3>{this.Name}</h3><p>{this.Price}</p><p><a href = \"{this.ImageUrl}\" class=\"btn btn-primary\" role=\"button\">Buy Now</a></p></div></div></div>";
+                  $"<div class=\"caption\"><h3>{this.Name}</h3><p>{this.Price}</p><p><a href = \"/home/buy\" class=\"btn btn-primary\" role=\"button\">Buy Now</a></p></div></div></div>";
             return template;
         }
         

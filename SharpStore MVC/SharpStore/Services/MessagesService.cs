@@ -4,14 +4,11 @@ using SharpStore.Models;
 
 namespace SharpStore.Services
 {
-    public class MessagesService
-    {
-        private SharpStoreContext context;
+    public class MessagesService: Service
+    {      
 
         public MessagesService(SharpStoreContext context)
-        {
-            this.context = context;
-        }
+            : base(context) { }
 
         public void AddMessageFrombind(MessageBinding messageBindingModel)
         {
