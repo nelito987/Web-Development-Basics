@@ -1,0 +1,11 @@
+c:\users\neli\documents\visual studio 2015\Projects\PizzaMoreMVC\PizzaMoreMVC\bin\Debug\Resources\Pages\404.html
+c:\users\neli\documents\visual studio 2015\Projects\PizzaMoreMVC\PizzaMoreMVC\bin\Debug\Resources\Pages\500.html
+c:\users\neli\documents\visual studio 2015\Projects\PizzaMoreMVC\PizzaMoreMVC\bin\Debug\PizzaMoreMVC.pdb
+c:\users\neli\documents\visual studio 2015\Projects\PizzaMoreMVC\PizzaMoreMVC\bin\Debug\SimpleHttpServer.dll
+c:\users\neli\documents\visual studio 2015\Projects\PizzaMoreMVC\PizzaMoreMVC\bin\Debug\SimpleMVC.dll
+c:\users\neli\documents\visual studio 2015\Projects\PizzaMoreMVC\PizzaMoreMVC\bin\Debug\SimpleHttpServer.pdb
+c:\users\neli\documents\visual studio 2015\Projects\PizzaMoreMVC\PizzaMoreMVC\bin\Debug\SimpleMVC.pdb
+c:\users\neli\documents\visual studio 2015\Projects\PizzaMoreMVC\PizzaMoreMVC\obj\Debug\PizzaMoreMVC.csprojResolveAssemblyReference.cache
+c:\users\neli\documents\visual studio 2015\Projects\PizzaMoreMVC\PizzaMoreMVC\obj\Debug\PizzaMoreMVC.pdb
+c:\users\neli\documents\visual studio 2015\Projects\PizzaMoreMVC\PizzaMoreMVC\bin\Debug\PizzaMoreMVC.exe
+c:\users\neli\documents\visual studio 2015\Projects\PizzaMoreMVC\PizzaMoreMVC\obj\Debug\PizzaMoreMVC.exe
