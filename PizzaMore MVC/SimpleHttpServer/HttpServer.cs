@@ -14,13 +14,14 @@ namespace SimpleHttpServer
             this.IsActive = true;
             this.Sessions = new Dictionary<string, HttpSession>();
             this.Processor = new HttpProcessor(routes, Sessions);
+            this.Routes = routes;
         }
         public IDictionary<string, HttpSession> Sessions { get; set; }
         public TcpListener Listener { get; private set; }
         public int Port { get; private set; }
         public HttpProcessor Processor { get; private set; }
         public bool IsActive { get; private set; }
-       
+        IEnumerable<Route> Routes { get; set; }
 
         public void Listen()
         {
@@ -28,10 +29,10 @@ namespace SimpleHttpServer
             this.Listener.Start();
             while (this.IsActive)
             {
-                TcpClient client = this.Listener.AcceptTcpClient();
+                 TcpClient client = this.Listener.AcceptTcpClient();
                 Thread thread = new Thread(() =>
                 {
-                    this.Processor.HandleClient(client);
+                    new HttpProcessor(Routes,new Dictionary<string, HttpSession>()).HandleClient(client);
                 });
                 thread.Start();
                 Thread.Sleep(1);
