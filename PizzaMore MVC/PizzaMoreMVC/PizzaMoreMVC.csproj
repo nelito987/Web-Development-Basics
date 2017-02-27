@@ -70,10 +70,12 @@
     <Compile Include="Models\User.cs" />
     <Compile Include="RouteTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\SignInManager.cs" />
     <Compile Include="Services\Service.cs" />
     <Compile Include="Services\UsersService.cs" />
     <Compile Include="Utilities\Constants.cs" />
     <Compile Include="Views\Home\Index.cs" />
+    <Compile Include="Views\Home\Indexlogged.cs" />
     <Compile Include="Views\Users\Signin.cs" />
     <Compile Include="Views\Users\Signup.cs" />
   </ItemGroup>
@@ -110,6 +112,7 @@
     <Content Include="content\game\index.html" />
     <Content Include="content\game\index.js" />
     <Content Include="content\home-de.html" />
+    <Content Include="content\indexlogged.html" />
     <Content Include="content\home.html" />
     <Content Include="content\images\pizza_1.jpg" />
     <Content Include="content\images\pizza_2.jpg" />

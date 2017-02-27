@@ -17,3 +17,12 @@ C:\Users\Neli\documents\visual studio 2015\Projects\PizzaMoreMVC\SimpleMVC\bin\D
 C:\Users\Neli\documents\visual studio 2015\Projects\PizzaMoreMVC\SimpleMVC\obj\Debug\SimpleMVC.csprojResolveAssemblyReference.cache
 C:\Users\Neli\documents\visual studio 2015\Projects\PizzaMoreMVC\SimpleMVC\obj\Debug\SimpleMVC.dll
 C:\Users\Neli\documents\visual studio 2015\Projects\PizzaMoreMVC\SimpleMVC\obj\Debug\SimpleMVC.pdb
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleMVC\bin\Debug\Resources\Pages\404.html
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleMVC\bin\Debug\Resources\Pages\500.html
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleMVC\bin\Debug\SimpleMVC.dll
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleMVC\bin\Debug\SimpleMVC.pdb
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleMVC\bin\Debug\SimpleHttpServer.dll
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleMVC\bin\Debug\SimpleHttpServer.pdb
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleMVC\obj\Debug\SimpleMVC.csprojResolveAssemblyReference.cache
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleMVC\obj\Debug\SimpleMVC.dll
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleMVC\obj\Debug\SimpleMVC.pdb

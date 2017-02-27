@@ -18,7 +18,7 @@ namespace PizzaMoreMVC
                     {
                         Name = "Carousel CSS",
                         Method = RequestMethod.GET,
-                        UrlRegex = "/content/css/carousel.css$",
+                        UrlRegex = "/css/carousel.css$",
                         Callable = (request) =>
                         {
                             var response = new HttpResponse()
@@ -34,7 +34,7 @@ namespace PizzaMoreMVC
                     {
                         Name = "Main CSS",
                         Method = RequestMethod.GET,
-                        UrlRegex = "/content/css/main.css$",
+                        UrlRegex = "/css/main.css$",
                         Callable = (request) =>
                         {
                             var response = new HttpResponse()
@@ -50,7 +50,7 @@ namespace PizzaMoreMVC
                     {
                         Name = "Image 1",
                         Method = RequestMethod.GET,
-                        UrlRegex = "/content/images/pizza_1.jpg$",
+                        UrlRegex = "/images/pizza_1.jpg$",
                         Callable = (request) =>
                         {
                             var response = new HttpResponse()
@@ -66,7 +66,7 @@ namespace PizzaMoreMVC
                     {
                         Name = "Image 2",
                         Method = RequestMethod.GET,
-                        UrlRegex = "/content/images/pizza_2.jpg$",
+                        UrlRegex = "/images/pizza_2.jpg$",
                         Callable = (request) =>
                         {
                             var response = new HttpResponse()

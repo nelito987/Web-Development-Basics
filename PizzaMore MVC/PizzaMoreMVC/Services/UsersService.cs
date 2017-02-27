@@ -4,6 +4,8 @@ using PizzaMoreMVC.BindingModels;
 using AutoMapper;
 using System.Linq;
 using SimpleHttpServer.Models;
+using System;
+using PizzaMoreMVC.Security;
 
 namespace PizzaMoreMVC.Services
 {
@@ -30,17 +32,20 @@ namespace PizzaMoreMVC.Services
             User currentUser = context.Users
                 .FirstOrDefault(u => u.Email == model.SignInEmail &&
                 u.Password == model.SignInPassword);
-            if(currentUser != null)
-            {
-                Session sessionEntity = new Session()
-                {
-                    SessionId = session.Id,
-                    IsActive = true,
-                    User = currentUser
-                };
 
-                context.Sessions.Add(sessionEntity);
-                context.SaveChanges();
+            Random rd = new Random();
+            if(currentUser != null)
+            {                
+                //Session sessionEntity = new Session()
+                //{
+                //    SessionId = rd.Next(0, 1000000).ToString(), // workasession.Id,
+                //    IsActive = true,
+                //    User = currentUser
+                //};
+
+                //context.Sessions.Add(sessionEntity);
+                
+                //context.SaveChanges();
                 return true;
             }
 

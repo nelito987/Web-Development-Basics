@@ -14,3 +14,10 @@ C:\Users\Neli\documents\visual studio 2015\Projects\PizzaMoreMVC\SimpleHttpServe
 C:\Users\Neli\documents\visual studio 2015\Projects\PizzaMoreMVC\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll.config
 C:\Users\Neli\documents\visual studio 2015\Projects\PizzaMoreMVC\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll
 C:\Users\Neli\documents\visual studio 2015\Projects\PizzaMoreMVC\SimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleHttpServer\bin\Debug\Resources\Pages\404.html
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleHttpServer\bin\Debug\Resources\Pages\500.html
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll.config
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
+C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb
