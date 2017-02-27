@@ -12,7 +12,7 @@ namespace PizzaMoreMVC.Services
     public class UsersService : Service
     {
         public UsersService(PizzaMvcContext context) : base(context)
-        {            
+        {
         }
 
         public void AddNewUser(SignupBindingModel model)
@@ -32,23 +32,30 @@ namespace PizzaMoreMVC.Services
             User currentUser = context.Users
                 .FirstOrDefault(u => u.Email == model.SignInEmail &&
                 u.Password == model.SignInPassword);
+            
+            if (currentUser != null)
+            {
+                var currentsession = this.context.Sessions.Find(session.Id);
+                if (currentsession == null)
+                {
+                    Session sessionEntity = new Session()
+                    {
+                        SessionId = session.Id,
+                        IsActive = true,
+                        User = currentUser
+                    };
+                    context.Sessions.Add(sessionEntity);
+                }
 
-            Random rd = new Random();
-            if(currentUser != null)
-            {                
-                //Session sessionEntity = new Session()
-                //{
-                //    SessionId = rd.Next(0, 1000000).ToString(), // workasession.Id,
-                //    IsActive = true,
-                //    User = currentUser
-                //};
+                if (currentsession.IsActive == false && currentsession.UserId == currentUser.Id)
+                {
+                    currentsession.IsActive = true;
+                }
 
-                //context.Sessions.Add(sessionEntity);
-                
-                //context.SaveChanges();
+                context.SaveChanges();
+
                 return true;
             }
-
             return false;
         }
     }

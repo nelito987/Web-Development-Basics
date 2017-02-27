@@ -62,6 +62,7 @@
     <Compile Include="BindingModels\SigninBindingModel.cs" />
     <Compile Include="BindingModels\SignupBindingModel.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Data\Data.cs" />
     <Compile Include="Data\PizzaMvcContext.cs" />
@@ -74,8 +75,11 @@
     <Compile Include="Services\Service.cs" />
     <Compile Include="Services\UsersService.cs" />
     <Compile Include="Utilities\Constants.cs" />
+    <Compile Include="ViewModels\PizzaSuggestionModel.cs" />
     <Compile Include="Views\Home\Index.cs" />
     <Compile Include="Views\Home\Indexlogged.cs" />
+    <Compile Include="Views\Menu\Index.cs" />
+    <Compile Include="Views\Users\Logout.cs" />
     <Compile Include="Views\Users\Signin.cs" />
     <Compile Include="Views\Users\Signup.cs" />
   </ItemGroup>
@@ -136,9 +140,7 @@
     <None Include="content\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ViewModels\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\SimpleHttpServer\SimpleHttpServer.csproj">
       <Project>{9E139539-C272-488A-BFCF-CADDF458DF9D}</Project>

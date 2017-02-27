@@ -21,3 +21,11 @@ C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleHttpSe
 C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
 C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
 C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\SimpleHttpServer\bin\Debug\Resources\Pages\404.html
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\SimpleHttpServer\bin\Debug\Resources\Pages\500.html
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll.config
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\SimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\SimpleHttpServer\obj\Debug\SimpleHttpServer.csprojResolveAssemblyReference.cache

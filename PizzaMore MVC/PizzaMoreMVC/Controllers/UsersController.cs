@@ -1,5 +1,6 @@
 ﻿using PizzaMoreMVC.BindingModels;
 using PizzaMoreMVC.Models;
+using PizzaMoreMVC.Security;
 using PizzaMoreMVC.Services;
 using SimpleHttpServer.Models;
 using SimpleMVC.Attributes.Methods;
@@ -12,6 +13,12 @@ namespace PizzaMoreMVC.Controllers
 {
     public class UsersController: Controller
     {
+        private SignInManager signInManager;
+
+        public UsersController()
+        {
+            this.signInManager = new SignInManager(Data.Data.Context);
+        }
         [HttpGet]
         public IActionResult Signup()
         {
@@ -46,6 +53,13 @@ namespace PizzaMoreMVC.Controllers
             }
             //Console.WriteLine("<h1>Invalid username or password!!!</h>");
             return this.View();           
+        }
+
+        [HttpGet]
+        public IActionResult Logout(HttpSession session)
+        {
+            this.signInManager.Logout(session);
+            return this.View("Home", "Index");
         }
     }
 }

@@ -34,3 +34,21 @@ C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\PizzaMoreMVC
 C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\PizzaMoreMVC\bin\Debug\EntityFramework.xml
 C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\PizzaMoreMVC\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\neli\Documents\GitHub\Web-Development-Basics\PizzaMore MVC\PizzaMoreMVC\obj\Debug\PizzaMoreMVC.csprojResolveAssemblyReference.cache
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\bin\Debug\PizzaMoreMVC.exe.config
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\obj\Debug\PizzaMoreMVC.exe
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\obj\Debug\PizzaMoreMVC.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\bin\Debug\Resources\Pages\404.html
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\bin\Debug\Resources\Pages\500.html
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\bin\Debug\PizzaMoreMVC.exe
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\bin\Debug\PizzaMoreMVC.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\bin\Debug\AutoMapper.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\bin\Debug\EntityFramework.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\bin\Debug\SimpleHttpServer.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\bin\Debug\SimpleMVC.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\bin\Debug\SimpleHttpServer.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\bin\Debug\SimpleMVC.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\bin\Debug\AutoMapper.xml
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\bin\Debug\EntityFramework.xml
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaMore MVC\PizzaMoreMVC\obj\Debug\PizzaMoreMVC.csprojResolveAssemblyReference.cache
