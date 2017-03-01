@@ -59,8 +59,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppStart.cs" />
+    <Compile Include="BindingModels\AddPizzaBindingModel.cs" />
+    <Compile Include="BindingModels\DeletePizzaBindingModel.cs" />
     <Compile Include="BindingModels\SigninBindingModel.cs" />
     <Compile Include="BindingModels\SignupBindingModel.cs" />
+    <Compile Include="BindingModels\VotePizzaBindingModel.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
@@ -75,10 +78,15 @@
     <Compile Include="Services\Service.cs" />
     <Compile Include="Services\UsersService.cs" />
     <Compile Include="Utilities\Constants.cs" />
+    <Compile Include="ViewModels\DetailsViewModel.cs" />
     <Compile Include="ViewModels\PizzaSuggestionModel.cs" />
+    <Compile Include="ViewModels\PizzasViewModel.cs" />
     <Compile Include="Views\Home\Index.cs" />
     <Compile Include="Views\Home\Indexlogged.cs" />
+    <Compile Include="Views\Menu\Add.cs" />
+    <Compile Include="Views\Menu\DetailsPizza.cs" />
     <Compile Include="Views\Menu\Index.cs" />
+    <Compile Include="Views\Menu\Suggestions.cs" />
     <Compile Include="Views\Users\Logout.cs" />
     <Compile Include="Views\Users\Signin.cs" />
     <Compile Include="Views\Users\Signup.cs" />

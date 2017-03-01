@@ -27,7 +27,7 @@ namespace PizzaMoreMVC.Views.Menu
                 "<ul class=\"nav navbar-nav navbar-right\">" +
                 "<p class=\"navbar-text navbar-right\"></p>" +
                 "<p class=\"navbar-text navbar-right\"><a href=\"/users/logout\" class=\"navbar-link\">Sign Out</a></p>" +
-                $"<p class=\"navbar-text navbar-right\">Signed in as {this.Model.Email}</p>" +
+                $"<p class=\"navbar-text navbar-right\">Signed in as {Model.Email}</p>" +
                 "</ul> </div></div></nav>");
 
             htmlContent.AppendLine(File.ReadAllText(Constants.MenuTopFolderLocation));
@@ -38,7 +38,7 @@ namespace PizzaMoreMVC.Views.Menu
                 htmlContent.AppendLine($"<img class=\"card-img-top\" src=\"{pizza.ImageUrl}\" width=\"200px\"alt=\"Card image cap\">");
                 htmlContent.AppendLine("<div class=\"card-block\">");
                 htmlContent.AppendLine($"<h4 class=\"card-title\">{pizza.Title}</h4>");
-                htmlContent.AppendLine($"<p class=\"card-text\"><a href=\"/menu/details?pizzaId={pizza.Id}\">Recipe</a></p>");
+                htmlContent.AppendLine($"<p class=\"card-text\"><a href=\"/menu/DetailsPizza?pizzaId={pizza.Id}\">Recipe</a></p>");
                 htmlContent.AppendLine("<form method=\"POST\">");
                 htmlContent.AppendLine($"<div class=\"radio\"><label><input type = \"radio\" name=\"PizzaVote\" value=\"Up\">Up</label></div>");
                 htmlContent.AppendLine($"<div class=\"radio\"><label><input type = \"radio\" name=\"PizzaVote\" value=\"Down\">Down</label></div>");

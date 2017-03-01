@@ -45,6 +45,8 @@ namespace PizzaMoreMVC.Services
                         User = currentUser
                     };
                     context.Sessions.Add(sessionEntity);
+
+                    currentsession = sessionEntity;
                 }
 
                 if (currentsession.IsActive == false && currentsession.UserId == currentUser.Id)
