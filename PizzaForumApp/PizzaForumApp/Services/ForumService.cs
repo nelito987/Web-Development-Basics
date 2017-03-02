@@ -7,7 +7,7 @@ namespace PizzaForumApp.Services
 {
     public class ForumService: Service
     {
-        public bool IsViewModelValid(RegisterUserBindingModel model)
+        public bool IsRegisterModelValid(RegisterUserBindingModel model)
         {
             if (model.Username.Length < 3)
             {
@@ -42,7 +42,7 @@ namespace PizzaForumApp.Services
             return true;
         }
 
-        public User GetUserFromBind(RegisterUserBindingModel model)
+        public User GetUserFromRegisterBind(RegisterUserBindingModel model)
         {
             User user = new User()
             {
@@ -61,6 +61,29 @@ namespace PizzaForumApp.Services
             }
 
             this.Context.Users.Add(user);
+            this.Context.SaveChanges();
+        }
+
+        public bool IsLoginModelValid(LoginBindingModel model)
+        {
+            return this.Context.Users.Any(u => (u.Email == model.Credential || u.Username == model.Credential)
+                                               && u.Password == model.Password);
+        }
+
+        public User GetUserLoginRegisterBind(LoginBindingModel model)
+        {
+            return this.Context.Users.FirstOrDefault(u => (u.Email == model.Credential || u.Username == model.Credential)
+                                                && u.Password == model.Password);
+        }
+
+        public void LoginUser(User user, string sessionId)
+        {
+            this.Context.Logins.Add(new Login()
+            {
+                User = user,
+                SessionId = sessionId,
+                IsActive = true
+            });
             this.Context.SaveChanges();
         }
     }
