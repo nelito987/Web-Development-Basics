@@ -19,7 +19,7 @@ namespace PizzaForumApp.Models
 
         public bool IsAdministrator { get; set; }
 
-        public ICollection<Topic> TopicsCreated { get; set; }
+        public virtual ICollection<Topic> TopicsCreated { get; set; }
 
     }
 }

@@ -68,5 +68,12 @@ namespace PizzaForumApp.Controllers
             this.Redirect(response, "/home/topics");
             return null;
         }
+
+        [HttpGet]
+        public void Logout(HttpSession session, HttpResponse response)
+        {
+            AuthenticationManager.Logout(session.Id, response);
+            this.Redirect(response, "/home/topics");
+        }
     }
 }

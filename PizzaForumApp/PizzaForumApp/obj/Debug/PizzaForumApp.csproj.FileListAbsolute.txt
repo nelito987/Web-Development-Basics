@@ -1,0 +1,16 @@
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\PizzaForumApp\bin\Debug\PizzaForumApp.exe.config
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\PizzaForumApp\bin\Debug\Resources\Pages\404.html
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\PizzaForumApp\bin\Debug\Resources\Pages\500.html
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\PizzaForumApp\bin\Debug\PizzaForumApp.exe
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\PizzaForumApp\bin\Debug\PizzaForumApp.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\PizzaForumApp\bin\Debug\EntityFramework.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\PizzaForumApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\PizzaForumApp\bin\Debug\SimpleHttpServer.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\PizzaForumApp\bin\Debug\SimpleMVC.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\PizzaForumApp\bin\Debug\SimpleHttpServer.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\PizzaForumApp\bin\Debug\SimpleMVC.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\PizzaForumApp\bin\Debug\EntityFramework.xml
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\PizzaForumApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\PizzaForumApp\obj\Debug\PizzaForumApp.csprojResolveAssemblyReference.cache
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\PizzaForumApp\obj\Debug\PizzaForumApp.exe
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\PizzaForumApp\obj\Debug\PizzaForumApp.pdb

@@ -6,7 +6,7 @@ namespace PizzaForumApp.Models
     {
         public int Id { get; set; }
         public int AuthorId { get; set; }
-        public User Author { get; set; }
+        public virtual User Author { get; set; }
         public string Content { get; set; }
 
         public DateTime PublishDate { get; set; }

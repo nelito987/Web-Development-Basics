@@ -1,0 +1,9 @@
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\SimpleMVC\bin\Debug\Resources\Pages\404.html
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\SimpleMVC\bin\Debug\Resources\Pages\500.html
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\SimpleMVC\bin\Debug\SimpleMVC.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\SimpleMVC\bin\Debug\SimpleMVC.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\SimpleMVC\bin\Debug\SimpleHttpServer.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\SimpleMVC\bin\Debug\SimpleHttpServer.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\SimpleMVC\obj\Debug\SimpleMVC.csprojResolveAssemblyReference.cache
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\SimpleMVC\obj\Debug\SimpleMVC.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\SimpleMVC\obj\Debug\SimpleMVC.pdb

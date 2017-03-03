@@ -108,5 +108,46 @@ namespace PizzaForumApp.Controllers
             return null;
         }
 
+        [HttpGet]
+        public IActionResult<EditCategoryViewModel> Edit(HttpSession session, HttpResponse response, int id)
+        {
+            if (!AuthenticationManager.IsAuthenticated(session.Id))
+            {
+                this.Redirect(response, "/forum/login");
+                return null;
+            }
+
+            User activeUser = AuthenticationManager.GetAuthenticatedUser(session.Id);
+            if (!activeUser.IsAdministrator)
+            {
+                this.Redirect(response, "/home/topics");
+                return null;
+            }
+
+            EditCategoryViewModel viewModel = service.GetEditCategoryModel(id);
+            return this.View(viewModel);
+
+        }
+
+        [HttpPost]
+        public void Edit
+              (HttpResponse response, HttpSession session, EditBindingModel bind)
+        {
+            if (!AuthenticationManager.IsAuthenticated(session.Id))
+            {
+                this.Redirect(response, "/forum/login");
+                
+            }
+
+            User activeUser = AuthenticationManager.GetAuthenticatedUser(session.Id);
+            if (!activeUser.IsAdministrator)
+            {
+                this.Redirect(response, "/home/topics");
+                
+            }
+
+            this.service.EditCategory(bind);
+            this.Redirect(response, "/categories/all");
+        }
     }
 }

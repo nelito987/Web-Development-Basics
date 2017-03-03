@@ -54,12 +54,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BindingModels\EditBindingModel.cs" />
     <Compile Include="BindingModels\LoginBindingModel.cs" />
     <Compile Include="BindingModels\NewCategoryBindingModel.cs" />
     <Compile Include="BindingModels\RegisterUserBindingModel.cs" />
+    <Compile Include="BindingModels\TopicBindingModel.cs" />
     <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\ForumController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TopicsController.cs" />
     <Compile Include="Data\Data.cs" />
     <Compile Include="Data\PizzaForumContext.cs" />
     <Compile Include="Models\Category.cs" />
@@ -74,16 +77,27 @@
     <Compile Include="Services\ForumService.cs" />
     <Compile Include="Services\HomeService.cs" />
     <Compile Include="Services\Service.cs" />
+    <Compile Include="Services\TopicsService.cs" />
     <Compile Include="Utilities\AuthenticationManager.cs" />
     <Compile Include="Utilities\Constants.cs" />
+    <Compile Include="Utilities\ViewBag.cs" />
     <Compile Include="ViewModels\AllCategoryViewModel.cs" />
     <Compile Include="ViewModels\AllViewModel.cs" />
+    <Compile Include="ViewModels\DetailsReplyViewModel.cs" />
+    <Compile Include="ViewModels\DetailsTopicViewModel.cs" />
+    <Compile Include="ViewModels\DetailsViewModel.cs" />
+    <Compile Include="ViewModels\EditCategoryViewModel.cs" />
     <Compile Include="ViewModels\LoggedInUserViewModel.cs" />
+    <Compile Include="ViewModels\TopicsViewModel.cs" />
     <Compile Include="Views\Categories\All.cs" />
+    <Compile Include="Views\Categories\Edit.cs" />
     <Compile Include="Views\Categories\New.cs" />
     <Compile Include="Views\Forum\Login.cs" />
+    <Compile Include="Views\Forum\Logout.cs" />
     <Compile Include="Views\Forum\Register.cs" />
     <Compile Include="Views\Home\Topics.cs" />
+    <Compile Include="Views\Topics\Details.cs" />
+    <Compile Include="Views\Topics\New.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
