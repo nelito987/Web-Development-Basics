@@ -1,0 +1,10 @@
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\IssueTracker.Models\bin\Debug\IssueTracker.Models.dll.config
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\IssueTracker.Models\bin\Debug\IssueTracker.Models.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\IssueTracker.Models\bin\Debug\IssueTracker.Models.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\IssueTracker.Models\bin\Debug\EntityFramework.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\IssueTracker.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\IssueTracker.Models\bin\Debug\EntityFramework.xml
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\IssueTracker.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\IssueTracker.Models\obj\Debug\IssueTracker.Models.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\IssueTracker.Models\obj\Debug\IssueTracker.Models.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\IssueTracker.Models\obj\Debug\IssueTracker.Models.csprojResolveAssemblyReference.cache

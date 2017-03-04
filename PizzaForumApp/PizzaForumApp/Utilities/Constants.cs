@@ -13,5 +13,7 @@
         public const string EditCategoriyHtml = "../../Content/admin-category-edit.html";
         public const string TopicNewHtml = "../../Content/topic-new.html";
         public const string ReplyForm = "../../Content/topic-details-reply-form.html";
+        public const string ProfileMine = "../../Content/profile-mine.html";
+        public const string ProfileOther = "../../Content/profile-other.html";
     }
 }

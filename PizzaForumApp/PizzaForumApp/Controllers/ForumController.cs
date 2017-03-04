@@ -2,10 +2,12 @@
 using PizzaForumApp.Models;
 using PizzaForumApp.Services;
 using PizzaForumApp.Utilities;
+using PizzaForumApp.ViewModels;
 using SimpleHttpServer.Models;
 using SimpleMVC.Attributes.Methods;
 using SimpleMVC.Controllers;
 using SimpleMVC.Interfaces;
+using SimpleMVC.Interfaces.Generic;
 
 namespace PizzaForumApp.Controllers
 {
@@ -74,6 +76,22 @@ namespace PizzaForumApp.Controllers
         {
             AuthenticationManager.Logout(session.Id, response);
             this.Redirect(response, "/home/topics");
+        }
+
+        [HttpGet]
+        public IActionResult<ProfileViewModel> Profile(HttpSession session, HttpResponse response, int id)
+        {
+            User user = AuthenticationManager.GetAuthenticatedUser(session.Id);
+
+            int currentUserId = -1;
+            if (user != null)
+            {
+                currentUserId = user.Id;
+            }
+
+            ProfileViewModel topics = this.service.GetProfileVm(id, currentUserId);
+
+            return this.View(topics);
         }
     }
 }

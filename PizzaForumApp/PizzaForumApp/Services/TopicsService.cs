@@ -74,5 +74,21 @@ namespace PizzaForumApp.Services
 
             return model;
         }
+
+        public void AddNewReply(DetailsReplyBindingModel model, User user)
+        {
+            Topic curTopic = Context.Topics.FirstOrDefault(t => t.Title == model.TopicTitle);
+            Reply newReply = new Reply()
+            {
+                Content = model.Content,
+                ImageUrl = model.ImageUrl,
+                Author = user,
+                PublishDate = DateTime.Now,
+                Topic = curTopic
+            };
+
+            Context.Replies.Add(newReply);
+            Context.SaveChanges();
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using PizzaForumApp.BindingModels;
 using PizzaForumApp.Models;
 using PizzaForumApp.ViewModels;
@@ -73,6 +74,22 @@ namespace PizzaForumApp.Services
                 category.Name = model.CategoryName;
                 Data.Data.Context.SaveChanges();
             }
+        }
+
+        public IEnumerable<TopicsViewModel> GetCategoryTopicsByName(string categoryName)
+        {
+            var topicVm = Context.Categories
+                .FirstOrDefault(c => c.Name == categoryName).Topics.Select(tp => new TopicsViewModel
+                {
+                    Id= tp.Id,
+                    AuthorUsername = tp.Author.Username,
+                    CategoryName = tp.Category.Name,
+                    PublishDate = tp.PublishDate,
+                    RepliesCount = tp.Replies.Count
+                });
+
+            return topicVm;
+
         }
     }
 }

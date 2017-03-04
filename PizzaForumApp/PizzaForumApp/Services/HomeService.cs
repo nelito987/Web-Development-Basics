@@ -23,5 +23,12 @@ namespace PizzaForumApp.Services
                 });
             return result;
         }
+
+        public IEnumerable<string> GetCategoryNames()
+        {
+            IEnumerable<string> categories = Context.Categories
+                .Select(c => c.Name);
+            return categories;
+        }
     }
 }

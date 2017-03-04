@@ -54,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BindingModels\DetailsReplyBindingModel.cs" />
     <Compile Include="BindingModels\EditBindingModel.cs" />
     <Compile Include="BindingModels\LoginBindingModel.cs" />
     <Compile Include="BindingModels\NewCategoryBindingModel.cs" />
@@ -88,13 +89,18 @@
     <Compile Include="ViewModels\DetailsViewModel.cs" />
     <Compile Include="ViewModels\EditCategoryViewModel.cs" />
     <Compile Include="ViewModels\LoggedInUserViewModel.cs" />
+    <Compile Include="ViewModels\ProfiletopicViewModel.cs" />
+    <Compile Include="ViewModels\ProfileViewModel.cs" />
     <Compile Include="ViewModels\TopicsViewModel.cs" />
     <Compile Include="Views\Categories\All.cs" />
     <Compile Include="Views\Categories\Edit.cs" />
     <Compile Include="Views\Categories\New.cs" />
+    <Compile Include="Views\Categories\Topics.cs" />
     <Compile Include="Views\Forum\Login.cs" />
     <Compile Include="Views\Forum\Logout.cs" />
+    <Compile Include="Views\Forum\Profile.cs" />
     <Compile Include="Views\Forum\Register.cs" />
+    <Compile Include="Views\Home\Categories.cs" />
     <Compile Include="Views\Home\Topics.cs" />
     <Compile Include="Views\Topics\Details.cs" />
     <Compile Include="Views\Topics\New.cs" />

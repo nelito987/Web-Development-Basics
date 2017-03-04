@@ -1,4 +1,5 @@
-﻿using PizzaForumApp.BindingModels;
+﻿using System.Collections.Generic;
+using PizzaForumApp.BindingModels;
 using PizzaForumApp.Models;
 using PizzaForumApp.Services;
 using PizzaForumApp.Utilities;
@@ -148,6 +149,17 @@ namespace PizzaForumApp.Controllers
 
             this.service.EditCategory(bind);
             this.Redirect(response, "/categories/all");
+        }
+
+        [HttpGet]
+        public IActionResult<IEnumerable<TopicsViewModel>> Topics(
+            HttpResponse response, 
+            HttpSession session, 
+            string categoryName)
+        {
+            User activeUser = AuthenticationManager.GetAuthenticatedUser(session.Id);
+            IEnumerable<TopicsViewModel> topics = service.GetCategoryTopicsByName(categoryName);
+            return this.View(topics);
         }
     }
 }

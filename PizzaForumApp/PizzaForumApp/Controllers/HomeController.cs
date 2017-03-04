@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using PizzaForumApp.Services;
+using PizzaForumApp.Utilities;
 using PizzaForumApp.ViewModels;
+using SimpleHttpServer.Models;
 using SimpleMVC.Attributes.Methods;
 using SimpleMVC.Controllers;
 using SimpleMVC.Interfaces;
@@ -22,6 +24,14 @@ namespace PizzaForumApp.Controllers
         {
             IEnumerable<TopicsViewModel> topics = this.service.GetTopTenTopics();
             return this.View(topics);
+        }
+
+        [HttpGet]
+        public IActionResult<IEnumerable<string>>  Categories(HttpSession session)
+        {
+            AuthenticationManager.GetAuthenticatedUser(session.Id);
+            IEnumerable<string> categoryNames = service.GetCategoryNames();
+            return this.View(categoryNames);
         }
     }
 }

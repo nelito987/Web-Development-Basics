@@ -12,5 +12,6 @@ namespace PizzaForumApp.Models
         public DateTime PublishDate { get; set; }
 
         public string ImageUrl { get; set; }
+        public virtual Topic Topic { get; set; }
     }
 }

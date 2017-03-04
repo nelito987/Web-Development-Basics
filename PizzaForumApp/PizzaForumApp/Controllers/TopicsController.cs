@@ -63,5 +63,26 @@ namespace PizzaForumApp.Controllers
             DetailsViewModel viewModel = this.service.GetDetailsVm(id);
             return this.View(viewModel);
         }
+
+        [HttpPost]
+        public IActionResult Details(HttpRequest request, HttpSession session, HttpResponse response, DetailsReplyBindingModel model)
+        {
+            if (!AuthenticationManager.IsAuthenticated(session.Id))
+            {
+                this.Redirect(response, "/forum/login");
+                return null;
+            }
+
+            User activeUser = AuthenticationManager.GetAuthenticatedUser(session.Id);
+            if (!activeUser.IsAdministrator)
+            {
+                this.Redirect(response, "/home/topics");
+                return null;
+            }
+           
+            this.service.AddNewReply(model, activeUser);
+            this.Redirect(response, request.Url);
+            return null;
+        }
     }
 }

@@ -1,0 +1,16 @@
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\SimpleHttpServer\bin\Debug\Resources\Pages\404.html
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\SimpleHttpServer\bin\Debug\Resources\Pages\500.html
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll.config
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\SimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\PizzaForumApp\SimpleHttpServer\obj\Debug\SimpleHttpServer.csprojResolveAssemblyReference.cache
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\SimpleHttpServer\bin\Debug\Resources\Pages\404.html
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\SimpleHttpServer\bin\Debug\Resources\Pages\500.html
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll.config
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\SimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb
+C:\Users\Neli\Documents\GitHub\Web Development Basics\IssueTracker\SimpleHttpServer\obj\Debug\SimpleHttpServer.csprojResolveAssemblyReference.cache
